@@ -1,0 +1,36 @@
+S -> NP VP   0.8
+S -> Aux NP VP   0.1
+S -> VP  0.1
+NP -> Pronoun    0.2
+NP -> Proper-Noun    0.2
+NP -> Det Nominal    0.6
+Nominal -> Noun  0.3
+Nominal -> Nominal Noun  0.2
+Nominal -> Nominal PP    0.5
+VP -> Verb   0.2
+VP -> Verb NP    0.5
+VP -> VP PP  0.3
+PP -> Prep NP    1.0
+Det -> the   0.6
+Det ->  a    0.2
+Det -> that  0.1
+Det -> this  0.1
+Noun -> book 0.1
+Noun -> flight   0.5
+Noun -> meal 0.2
+Noun -> money    0.2
+Verb -> book 0.5
+Verb -> include  0.2
+Verb -> prefer   0.3
+Pronoun -> I 0.5
+Pronoun -> he    0.1
+Pronoun -> she   0.1
+Pronoun -> me    0.3
+Proper-Noun -> Houston   0.8
+Proper-Noun -> NWA   0.2
+Aux -> does  1.0
+Prep -> from 0.25
+Prep -> to   0.25
+Prep -> on   0.1
+Prep -> near 0.2
+Prep -> through  0.2
